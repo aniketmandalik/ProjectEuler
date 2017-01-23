@@ -1,5 +1,4 @@
 from timeit import default_timer as timer
-
 from math import sqrt
 
 def coded_triangle_numbers(file_name):

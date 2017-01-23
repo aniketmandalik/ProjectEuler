@@ -1,18 +1,11 @@
 from timeit import default_timer as timer
-from MathStuff import digits
-from math import log2
+from MathStuff import digits, get_number, prime_factorize
 
 def non_mersenne_prime():
-	num1 = 28433
-	a = log2(7830457)
-	b = a - 22
-	a = int(a)
-	num2 = 2.0
-	for _ in range(a):
-		num2 **= 2
-	num2 **= b
-	num = num1 * num2 + 1
-	return num
+	num1 = 28433*2**7830457 + 1
+	i = 0
+	while 2**i < 7830457
+
 
 start = timer()
 print(non_mersenne_prime())
